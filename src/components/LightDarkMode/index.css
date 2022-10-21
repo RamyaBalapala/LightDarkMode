@@ -1,0 +1,38 @@
+body {
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.mode-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  border-radius: 15px;
+}
+.dark-mode-container {
+  background-color: #000000;
+  color: #ffffff;
+}
+.light-mode-container {
+  border: 3px solid #000000;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 5px;
+}
